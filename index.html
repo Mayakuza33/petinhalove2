@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Feliz Cumple Petinha</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        id="cartaFechada"
+        src="./img/Feliz cumple Petinha (2).png"
+        alt="Carta Fechada"
+      />
+      <button id="botaoAbrir" onclick="abrirCarta()">Abrir carta</button>
+
+      <img
+        id="cartaAberta"
+        src="./img/Cumpleanos de mi amor.jpg"
+        alt="Carta Aberta"
+        style="display: none"
+      />
+      <button id="botaoProxima" onclick="proximaPagina()" style="display: none">
+        Próxima página
+      </button>
+
+      <img
+        id="paginaFinal"
+        src="./img/13 may 2023.png"
+        alt="Página 2"
+        style="display: none"
+      />
+      <button id="botaoVoltar" onclick="voltarInicio()" style="display: none">
+        Voltar ao início
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
